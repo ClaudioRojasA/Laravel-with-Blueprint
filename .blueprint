@@ -1,0 +1,7 @@
+created:
+    - database/factories/EmployeesFactory.php
+    - database/migrations/2022_08_30_223230_create_employees_table.php
+    - app/Models/Employees.php
+models:
+    Employees: { name: 'string:100', identification: 'string:100', birth: datetime, salary: integer }
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string:100 nullable' }
